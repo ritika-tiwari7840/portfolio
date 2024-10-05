@@ -159,7 +159,7 @@ backdrop-filter: blur(20px);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 2px 2px 5px rgb(60, 60, 60);
-  margin-left: 20px;
+  
 }
 
 
@@ -212,6 +212,7 @@ backdrop-filter: blur(20px);
 .skill h1{
 
     text-decoration:underline;
+    /* font-size:1em; */
 }
 .grpskills{
 margin-top: 3%;
