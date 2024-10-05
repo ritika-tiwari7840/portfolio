@@ -35,7 +35,7 @@ backdrop-filter: blur(20px);
   color: white;
   border-right: 1px solid white;
   height: 20px;
-  width: 300px;
+  width: 275px;
   font-size: 100%;
   /* letter-spacing: 10px; */
   /* text-align: center; */
@@ -331,6 +331,7 @@ backdrop-filter: blur(20px);
       color: white;
 text-align: center;
 padding:2%;
+box-shadow: 2px 2px 5px grey;
 }
 .domainofproject{
     text-decoration: underline;
