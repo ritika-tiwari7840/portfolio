@@ -237,7 +237,11 @@ backdrop-filter: blur(20px);
   background-image: url(Images/C.png);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+
+
+
 .skillbox2 {
   width: 100px;
   height: 100px;
