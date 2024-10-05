@@ -30,6 +30,7 @@ backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px); */
 }
 .typingtext {
+    margin-left:1%;
   display: inline-block;
   color: white;
   border-right: 1px solid white;
@@ -104,6 +105,11 @@ backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(10px);
   z-index: 2;
 }
+.navbar ul li a{
+
+    text-decoration: none;
+    color:white;
+}
 .me {
   width: 100%;
   display: flex;
@@ -162,6 +168,11 @@ backdrop-filter: blur(20px);
   box-shadow: 2px 2px 5px rgb(60, 60, 60);
 }
 
+.mebtn a{
+
+    color:white;
+    text-decoration: none;
+}
 /* for resume */
 
 .resume {
@@ -297,8 +308,8 @@ backdrop-filter: blur(20px);
 
 .pro{
     border-radius: 10px;
-    margin-top: 2%;
-    width:30%;
+    margin-top: 5%;
+    width:40%;
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
@@ -324,12 +335,13 @@ font-size: 10px;
 }
 .git{
     margin-top:3%;
-padding: 3%;
-background-color:#686eff ;
-font-size: 12px;
-border: none;
+padding: 5px;
+background-color:black ;
+font-size: 8px;
+
 border-radius: 5px;
 color:white;
+border:1px solid white;
 }
 .des{
 margin-top:1.5%;
@@ -339,6 +351,7 @@ margin-top:1.5%;
 .section-title{
 font-size: 100%;
 text-decoration: underline;
+padding:2%;
 
 }
 
@@ -432,4 +445,54 @@ text-align: center;
     color:black;
     margin-top:7%;
     padding:2%;
+}
+
+
+/* for about me */
+
+.about{
+
+    margin-top: 15%;
+    width: 100%;
+    /* height:100vh; */
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+
+
+}
+.about p{
+
+    width:80%;
+    text-align: center;
+    font-size:10px;
+    margin-top:5%;
+}
+
+.social{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.social a{
+    width:30px;
+    height:30px;
+    margin-left:5%;
+    
+
+}
+.social img{
+width:30px;
+height:30px;
+border-radius: 50%;
+border:2px solid white;
+box-shadow: 2px 2px 1px rgb(92, 91, 91);
+
+
 }
