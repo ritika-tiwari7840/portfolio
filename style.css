@@ -21,7 +21,12 @@ height:100vh;
 background-color: #1e1e1e;
 display:flex;
 flex-direction: column;
-
+/* background-image: url(Images/me.png); */
+/* background-repeat: no-repeat;
+background-size: contain;
+background-attachment:fixed;
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px); */
 }
 .typingtext{
 display: inline-block;
@@ -96,5 +101,38 @@ color:white;
 background:linear-gradient(135deg,rgba(255, 255,255, 0.1), rgba(255,255,255,0));
 backdrop-filter: blur(10px);
 -webkit-backdrop-filter: blur(10px);
+z-index: 2;
+}
+.me{
+width:100%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+/* background-color: red; */
+z-index: 2;
+margin-top: 5%;
+align-items:center;
+justify-content: center;
+color:white;
+}
+.meimg{
 
+    position: absolute;
+    top:2%;
+    left: 0px;
+    height: 60%;
+    width:70%;
+    z-index: 1;
+}
+.me h1{
+    margin-top: 2%;
+}
+.me h2{
+    margin-top: 0.5%;
+
+}
+.me p{
+margin-top: 1%;
+    width:50%;
+    text-align: center;
 }
